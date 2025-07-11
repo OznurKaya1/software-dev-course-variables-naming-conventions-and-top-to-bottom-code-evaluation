@@ -30,3 +30,23 @@ let c = 20;
 let d = a + " bought " + b + " items for $" + c + ".";
 
 console.log(d);
+
+let customerName = "Alice";
+let numberOfItems = 5;
+let itemPrice = 20;
+let totalCost = numberOFItems * itemPrice;
+console.log(customerName + " bought " + numberOfItems + " items for" + totalCost + "dollar" + ", each item is $" + itemPrice + ".");
+
+Things to reflect on: 
+
+ - Why is it important to use meaningful variable names?
+
+Variables are important to have a better understanding of the purpose of codes for developers. 
+
+  - What are the common pitfalls to avoid when naming variables?
+
+  Using vague names, making names too long, mixing styles, using reserved words like function, giving misleading names.
+
+  - How do clear variable names benefit team collaboration?
+
+  it makes code easier to understand, and it reduces mistakes.
