@@ -24,20 +24,15 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
-
-console.log(d);
-
 let customerName = "Alice";
 let numberOfItems = 5;
-let itemPrice = 20;
-let totalCost = numberOFItems * itemPrice;
-let (sum) = customerName + " bought " + numberOfItems + " items for" + totalCost + "dollar" + ", each item is $" + itemPrice + ".");
- 
-console.log(sum);
+let pricePerItem = 20;
+let purcaseDate =  "July 10, 2025";
+let storeName = "Shnucks"
+let totalCost = numberOfItems * pricePerItem;
+
+console.log(receipt);
+
 
 
 
@@ -55,6 +50,3 @@ Variables are important to have a better understanding of the purpose of codes f
 
   it makes code easier to understand, and it reduces mistakes.
   
-git add .
-git commit -m "Refactored variables and added userName and currentDate variables"
-git push origin main
